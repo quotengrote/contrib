@@ -126,7 +126,7 @@ echo multigraph daily_yield
 echo "daily_yield.value $(echo "scale=2 ; $daily_yield / 100" | bc | sed 's/^\./0./')"
 
 echo multigraph total_yield
-echo "total_yield.value $(echo "scale=2 ; $total_yield / 100" | bc | sed 's/^\./0./')"
+echo "total_yield.value $(echo "scale=2 ; $total_yield / 10" | bc | sed 's/^\./0./')"
 
 echo multigraph reachable
 echo "reachable.value $reachable"
